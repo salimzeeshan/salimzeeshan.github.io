@@ -60,6 +60,16 @@ a:focus,
 textarea:focus {
   outline: none; }
 
+.main-pic-cont{
+  text-align: center;
+}
+
+.main-picture{
+  width: 250px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+
 button {
   border: none;
   cursor: pointer; }
@@ -68,7 +78,7 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-size: 6rem;
+  font-size: 4.5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
