@@ -70,6 +70,10 @@ textarea:focus {
   margin-top: 35px;
 }
 
+.contact-icon{
+  width: 30px;
+}
+
 button {
   border: none;
   cursor: pointer; }
@@ -78,7 +82,7 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
@@ -95,8 +99,13 @@ textarea {
 .heading-sec__mb-med {
   margin-bottom: 9rem; }
   @media only screen and (max-width: 56.25em) {
+    .main-picture {
+        margin-top: -50px;
+      }
+    .heading-primary {
+        font-size: 3rem;}
     .heading-sec__mb-med {
-      margin-bottom: 8rem; } }
+      margin-bottom: 3rem; } }
 
 .heading-sec__main {
   display: block;
@@ -495,7 +504,8 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     color: #777; }
 
 .project-details__links {
-  margin: 0 0; }
+  align-items: center;
+  margin: 15px 0; }
   .project-details__links-btn {
     margin-right: 2rem; }
     @media only screen and (max-width: 37.5em) {
@@ -506,6 +516,27 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         text-align: center; } }
     .project-details__links-btn:last-child {
       margin: 0; }
+      @media only screen and (max-width: 37.5em) {
+        .project-details__links-btn:last-child {
+          margin: 0; } }
+
+.project-details__links_contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: "100%";
+  flex-wrap: wrap;
+  margin: 15px 0; }
+  .project-details__links-btn {
+    margin-right: 2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .project-details__links-btn {
+        margin-right: 0;
+        width: 70%;
+        margin-bottom: 2rem;
+        text-align: center; } }
+    .project-details__links-btn:last-child {
+      margin: 15px 0; }
       @media only screen and (max-width: 37.5em) {
         .project-details__links-btn:last-child {
           margin: 0; } }
