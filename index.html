@@ -9,6 +9,7 @@
     <meta name="description" content="Portfolio" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,9 +43,6 @@
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="https://drive.google.com/uc?export=download&id=13RMS0TwUEnhKzNZ5w0O8lWK8NElLq4PS" class="header__link"> Resume </a>
-            </li>
-            <li class="header__link-wrapper">
               <a href="./index.html" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
@@ -56,7 +54,15 @@
               </a>
             </li>
             <li class="header__link-wrapper">
+              <a href="./index.html#githubcalendar" class="header__link">
+                Calendar
+              </a>
+            </li>
+            <li class="header__link-wrapper">
               <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="https://drive.google.com/uc?export=download&id=13RMS0TwUEnhKzNZ5w0O8lWK8NElLq4PS" class="header__link"> Resume </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -76,24 +82,24 @@
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="https://drive.google.com/uc?export=download&id=13RMS0TwUEnhKzNZ5w0O8lWK8NElLq4PS"> Resume </a>
-            </li>
-
+            
             <li class="header__sm-menu-link">
               <a href="./index.html"> Home </a>
             </li>
-
+            
             <li class="header__sm-menu-link">
               <a href="./index.html#about"> About </a>
             </li>
-
+            
             <li class="header__sm-menu-link">
               <a href="./index.html#projects"> Projects </a>
             </li>
-
+            
             <li class="header__sm-menu-link">
               <a href="./index.html#contact"> Contact </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="https://drive.google.com/uc?export=download&id=13RMS0TwUEnhKzNZ5w0O8lWK8NElLq4PS"> Resume </a>
             </li>
           </ul>
         </div>
@@ -341,6 +347,15 @@
               </div>
               </div>
               </div>
+              <div id="githubcalendar" class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-bg">
+                  <span class="heading-sec__main">GitHub Calendar</span>
+                </h2>
+                  <div class="calendar">
+                    <!-- Loading stuff -->
+                    Loading the data just for you.
+                  </div>
+                </div>
       </div>
     </section>
     <section id="contact" class="contact sec-pad dynamicBg">
@@ -468,3 +483,20 @@
     <script src="./index.js"></script>
   </body>
 </html>
+
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<script>
+  // GitHubCalendar(".calendar", "salimzeeshan");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "salimzeeshan", { responsive: true });
+
+  // Use a proxy
+  // GitHubCalendar(".calendar", "salimzeeshan", {
+  //   proxy(username) {
+  //     return fetch(`https://your-proxy.com/github?user=${username}`)
+  //   }
+  // }).then(r => r.text())
+</script>
