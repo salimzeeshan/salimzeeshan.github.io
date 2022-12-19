@@ -301,9 +301,10 @@ textarea {
 
 .projects__row {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   grid-gap: 5rem;
-  margin-bottom: 11rem; }
+  margin-bottom: 11rem;
+  align-items: center; }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       grid-template-columns: 1fr;
@@ -316,7 +317,8 @@ textarea {
     margin-bottom: 0; }
   .projects__row-img-cont {
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    overflow: hidden; }
+    overflow: hidden;
+  height: max-content; }
   .projects__row-img {
     overflow: hidden;
     width: 100%;
