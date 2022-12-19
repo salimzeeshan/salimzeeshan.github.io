@@ -507,7 +507,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 .project-details__links {
   align-items: center;
-  margin: 15px 0; }
+  margin: 15px 0 0 0; }
   .project-details__links-btn {
     margin-right: 2rem; }
     @media only screen and (max-width: 37.5em) {
