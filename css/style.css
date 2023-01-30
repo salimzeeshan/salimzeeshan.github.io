@@ -85,7 +85,8 @@ textarea {
   font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-align: center; }
+  text-align: center;
+  color: #B6EADA; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
       font-size: 4.5rem; } }
@@ -115,7 +116,8 @@ textarea {
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: 3.5rem;
-  position: relative; }
+  position: relative;
+  color: #B6EADA; }
   .heading-sec__main--lt {
     color: #fff; }
     .heading-sec__main--lt::after {
@@ -127,7 +129,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #0062b9;
+    background: #B6EADA;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -138,7 +140,7 @@ textarea {
 .heading-sec__sub {
   display: block;
   text-align: center;
-  color: #777;
+  color: #b6eada8f;
   font-size: 2rem;
   font-weight: 500;
   max-width: 80rem;
@@ -160,6 +162,10 @@ textarea {
   margin: auto;
   width: 92%; }
 
+.calendar{
+  color: white;
+}
+
 .btn {
   background: #fff;
   color: #333;
@@ -179,12 +185,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
+    background: #301E67;
     color: #fff; }
   .btn--theme-inv {
-    color: #0062b9;
+    color: #301E67;
     background: #fff;
-    border: 2px solid #0062b9;
+    border: 2px solid #301E67;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -209,7 +215,8 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
+  background-color: #301E67;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -271,7 +278,7 @@ textarea {
     text-align: center; }
 
 .about {
-  background: #fafafa; }
+  background: #03001C; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -283,13 +290,14 @@ textarea {
     .about__content-title {
       font-weight: 700;
       font-size: 2.8rem;
-      margin-bottom: 3rem; }
+      margin-bottom: 3rem;
+    color: #B6EADA; }
       @media only screen and (max-width: 37.5em) {
         .about__content-title {
           font-size: 2.4rem; } }
     .about__content-details-para {
       font-size: 1.8rem;
-      color: grey;
+      color: #B6EADA;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem; }
@@ -298,6 +306,10 @@ textarea {
         margin: 0 3px; }
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
+
+.projects{
+  background-color: #03001C;
+}
 
 .projects__row {
   display: grid;
@@ -336,13 +348,14 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     .projects__row-content-title {
       font-weight: 700;
       font-size: 2.8rem;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+    color: #B6EADA; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
       font-size: 1.8rem;
-      color: grey;
+      color: #b6eada8f;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 3rem; }
@@ -350,8 +363,13 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         .projects__row-content-desc {
           font-size: 1.7rem; } }
 
+.projects__row-content h1{
+  color: #B6EADA;
+}
+
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
+  background-color: #301e67;
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -572,7 +590,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #0062b9; }
+    background: #301E67; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
