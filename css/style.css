@@ -583,7 +583,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #0062b9; }
+      color: #301E67; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -623,7 +623,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #0062b9; }
+      color: #301E67; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
