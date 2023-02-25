@@ -321,6 +321,7 @@ textarea {
   padding: 10px 50px 10px 50px;
   border-radius: 30px;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
  }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
@@ -572,7 +573,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   z-index: 1000;
   background-color: 255, 255, 255, .1;
   backdrop-filter: blur(5px);
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
+  -webkit-backdrop-filter: blur(5px);}
   .header__content {
     display: flex;
     align-items: center;
