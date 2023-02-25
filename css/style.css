@@ -68,7 +68,7 @@ textarea:focus {
 
 .main-picture{
   width: 250px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-top: 35px;
 }
 
@@ -99,7 +99,7 @@ textarea {
  }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
-      font-size: 5.5rem; } }
+      font-size: 6.5rem; } }
 
 .heading-sec__mb-bg {
   margin-bottom: 11rem; }
@@ -114,7 +114,7 @@ textarea {
         margin-top: -50px;
       }
     .heading-primary {
-        font-size: 4rem;}
+        font-size: 5rem;}
     .heading-sec__mb-med {
       margin-bottom: 3rem; } }
 
