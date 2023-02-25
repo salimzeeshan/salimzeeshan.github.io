@@ -316,7 +316,12 @@ textarea {
   grid-template-columns: 1.4fr 1fr;
   grid-gap: 5rem;
   margin-bottom: 11rem;
-  align-items: center; }
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 50px 10px 50px;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+ }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       grid-template-columns: 1fr;
@@ -565,8 +570,8 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
-  background: #fff;
+  background-color: 255, 255, 255, .1;
+  backdrop-filter: blur(5px);
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
@@ -580,7 +585,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: white;
     transition: color .3s; }
     .header__logo-container:hover {
       color: #301E67; }
@@ -617,7 +622,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
