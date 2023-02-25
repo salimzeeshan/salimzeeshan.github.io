@@ -214,9 +214,15 @@ textarea {
   display: none; }
 
 .home-hero {
+  /* background-color: #301E67; */
+  background: -moz-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -moz-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -webkit-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -webkit-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -ms-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -ms-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -o-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -o-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
+  background-size: 20px 20px;
+  background-color: black;
   color: #fff;
-  /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
-  background-color: #301E67;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -327,7 +333,9 @@ textarea {
     .projects__row {
       grid-template-columns: 1fr;
       grid-gap: 2rem;
-      margin-bottom: 8rem; } }
+      margin-bottom: 8rem;
+      padding: 50px 50px 10px 50px;
+     } }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       text-align: center; } }
@@ -572,7 +580,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   width: 100%;
   z-index: 1000;
   background-color: 255, 255, 255, .1;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(5px);}
   .header__content {
     display: flex;
@@ -589,7 +597,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     color: white;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #301E67; }
+      color: rgb(54, 189, 234); }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -629,7 +637,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #301E67; }
+      color: rgb(54, 189, 234) }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
