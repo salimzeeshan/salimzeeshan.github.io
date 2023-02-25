@@ -21,6 +21,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
       rel="stylesheet">
     <link
@@ -103,18 +107,18 @@
     <section class="home-hero">
       <div class="home-hero__content">
         <div class="main-pic-cont"><img class="main-picture" src="https://media.discordapp.net/attachments/897156357810159709/1044731472571019325/profile.png" /></div>
-        <h1 class="heading-primary">Hey, My name is Mohammad Zeeshan Salim</h1>
+        <h1 class="heading-primary">I'm <span class="name">Zeeshan</span>. I'm a Full-Stack Web Developer & Designer.</h1>
         <div class="home-hero__info">
-          <p class="text-primary">
+          <!-- <p class="text-primary">
             A full-stack web developer with
             specialization in developing websites
             and web applications using HTML,
             CSS, JavaScript, React, and Node.js.
-          </p>
+          </p> -->
         </div>
-        <div class="home-hero__cta">
+        <!-- <div class="home-hero__cta">
           <a href="./#projects" class="btn btn--bg">Projects</a>
-        </div>
+        </div> -->
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
@@ -263,7 +267,7 @@
                 <li>Cart and checkout functionality</li>
                 <li>Filter products by name, price</li>
               </ul>
-              <div class="skills">
+              <div class="techstack skills">
                 <div class="skills__skill"><img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt=""></div>
                 <div class="skills__skill"><img src="https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt=""></div>
               <div class="skills__skill"><img src="https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt=""></div>
@@ -297,7 +301,7 @@
                 <li>Implemented authentication</li>
                 <li>Responsive UI</li>
               </ul>
-              <div class="skills">
+              <div class="techstack skills">
                 <div class="skills__skill"><img src="https://img.shields.io/badge/React%20-61DBFB?style=for-the-badge&logo=react&logoColor=black" alt=""></div>
               <div class="skills__skill"><img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt=""></div>
               <div class="skills__skill"><img src="https://img.shields.io/badge/Chakra%20UI%20-38c6bd?style=for-the-badge&logo=chakraui&logoColor=white" alt=""></div>
@@ -333,7 +337,7 @@
                 <li>Implemented authentication</li>
                 <li>Responsive UI</li>
               </ul>
-              <div class="skills">
+              <div class="techstack skills">
         <div class="skills__skill"><img
             src="https://img.shields.io/badge/React%20-61DBFB?style=for-the-badge&logo=react&logoColor=black" alt=""></div>
         <div class="skills__skill"><img
@@ -342,6 +346,8 @@
         <div class="skills__skill"><img
             src="https://img.shields.io/badge/Chakra%20UI%20-38c6bd?style=for-the-badge&logo=chakraui&logoColor=white" alt="">
         </div>
+
+        <!-- Github Calender -->
               
               </div>
               <div class="project-details__links">
@@ -357,10 +363,11 @@
                   <span class="heading-sec__main">GitHub Calendar</span>
                 </h2>
                   <div class="calendar">
-                    <!-- Loading stuff -->
                     Loading the data just for you.
                   </div>
                 </div>
+
+
       </div>
     </section>
     <section id="contact" class="contact sec-pad dynamicBg">
@@ -475,9 +482,8 @@
           </div>
         </div>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
+          Made by
           <a rel="noreferrer" target="_blank" href="https://salimzeeshan.github.io/portfolio/"
             >Mohammd Zeeshan Salim</a
           >
@@ -493,15 +499,5 @@
 </script>
 
 <script>
-  // GitHubCalendar(".calendar", "salimzeeshan");
-
-  // or enable responsive functionality:
   GitHubCalendar(".calendar", "salimzeeshan", { responsive: true });
-
-  // Use a proxy
-  // GitHubCalendar(".calendar", "salimzeeshan", {
-  //   proxy(username) {
-  //     return fetch(`https://your-proxy.com/github?user=${username}`)
-  //   }
-  // }).then(r => r.text())
 </script>

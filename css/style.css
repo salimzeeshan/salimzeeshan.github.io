@@ -46,7 +46,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'DM Sans', sans-serif;
-  background-color: #000;
+  background-color: #18122B;
  }
 
 a {
@@ -83,15 +83,23 @@ button {
 textarea {
   resize: none; }
 
+
+.name{
+  color: rgb(54, 189, 234);
+  font-weight: 700;
+}
+
 .heading-primary {
-  font-size: 3.5rem;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 5.5rem;
+  /* text-transform: uppercase; */
   letter-spacing: 3px;
   text-align: center;
-  color: #B6EADA; }
+  color: #B6EADA;
+ }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
-      font-size: 4.5rem; } }
+      font-size: 5.5rem; } }
 
 .heading-sec__mb-bg {
   margin-bottom: 11rem; }
@@ -106,7 +114,7 @@ textarea {
         margin-top: -50px;
       }
     .heading-primary {
-        font-size: 3rem;}
+        font-size: 4rem;}
     .heading-sec__mb-med {
       margin-bottom: 3rem; } }
 
@@ -197,7 +205,7 @@ textarea {
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
 .sec-pad {
-  padding: 12rem 0; }
+  padding: 12rem 0; }                
   @media only screen and (max-width: 56.25em) {
     .sec-pad {
       padding: 8rem 0; } }
@@ -210,19 +218,19 @@ textarea {
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
     .text-primary {
-      font-size: 2rem; } }
+      font-size: 1.5rem; } }
 
 .d-none {
   display: none; }
 
 .home-hero {
-  background: -moz-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -moz-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-  background: -webkit-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -webkit-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-  background: -ms-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -ms-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-  background: -o-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -o-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-  background: radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -moz-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), -moz-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -webkit-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), -webkit-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -ms-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), -ms-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -o-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), -o-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
   background-size: 20px 20px;
-  background-color: black;
+  background-color: #18122B;
   color: #fff;
   background-position: center;
   height: 100vh;
@@ -378,18 +386,23 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         .projects__row-content-desc {
           font-size: 1.7rem; } }
 
+      .techstack{
+        display: flex;
+        justify-content: center;
+      }
+
 .projects__row-content h1{
   color: #B6EADA;
 }
 
 .contact {
-  background: -moz-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -moz-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-    background: -webkit-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -webkit-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-    background: -ms-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -ms-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-    background: -o-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), -o-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-    background: radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), none;
-    background-size: 20px 20px;
-  background-color: black;
+  background: -moz-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), -moz-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -webkit-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), -webkit-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -ms-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), -ms-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: -o-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), -o-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background: radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #393053 10px, rgba(96, 16, 48, 0) 11px), none;
+  background-size: 20px 20px;
+  background-color: #18122B;
   background-position: center; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -609,7 +622,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #301E67; }
+    background: #18122B; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
