@@ -45,7 +45,8 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'DM Sans', sans-serif;
+  /* font-family: 'DM Sans', sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: #18122B;
  }
 
@@ -86,11 +87,11 @@ textarea {
 
 .name{
   color: rgb(54, 189, 234);
-  font-weight: 700;
 }
 
 .heading-primary {
-  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
   font-size: 5.5rem;
   /* text-transform: uppercase; */
   letter-spacing: 3px;
@@ -195,8 +196,11 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #301E67;
-    color: #fff; }
+    /* background: #301E67; */
+    background-color: rgb(54, 189, 234);
+    color: #fff;
+    color: #333;
+   }
   .btn--theme-inv {
     color: #301E67;
     background: #fff;
@@ -371,7 +375,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     .projects__row-content-title {
       font-weight: 700;
       font-size: 2.8rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     color: #B6EADA; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
