@@ -157,15 +157,16 @@
       <div class="mouse"></div>
     </div>
   </section>
+
   <section id="about" class="about sec-pad">
     <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
+      <h2 class="heading heading-sec heading-sec__mb-med hidden">
         <span class="heading-sec__main">About Me</span>
         <span class="heading-sec__sub">
           "Java is to JavaScript what a car is to a carpet"
         </span>
       </h2>
-      <div class="about__content">
+      <div class="about__content hidden">
         <div class="about__content-main">
           <h3 class="about__content-title">Get to know me</h3>
           <div class="about__content-details">
@@ -536,13 +537,13 @@
 
   <section id="skills" class="about sec-pad">
     <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
+      <h2 class="heading heading-sec heading-sec__mb-med hidden">
         <span class="heading-sec__main">SKILL SET</span>
         <span class="heading-sec__sub">
           "The greatest skill of all is the ability to recognize opportunity."
         </span>
       </h2>
-      <div class="skills__content">
+      <div class="skills__content hidden">
         <div class="about__content-skills">
           <h3 class="about__content-title">Tech Stacks & Tools</h3>
           <div class="skills">
@@ -636,7 +637,7 @@
 
   <section id="projects" class="projects sec-pad">
     <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-bg">
+      <h2 class="heading heading-sec heading-sec__mb-bg hidden">
         <span class="heading-sec__main">Projects</span>
         <span class="heading-sec__sub">
           "68 74 74 70 73 3A 2F 2F 77 77 77 2E 79 6F 75 74 75 62 65 2E 63 6F 6D 2F 77 61 74 63 68 3F 76 3D 64 51 77 34
@@ -646,7 +647,7 @@
       </h2>
 
       <div class="projects__content">
-        <div class="projects__row">
+        <div class="projects__row hidden">
           <div class="projects__row-img-cont">
             <video autoplay playsinline loop muted src="./assets/m4v/bellavita.m4v" alt="Software Screenshot"
               class="projects__row-img"></video>
@@ -685,7 +686,7 @@
           </div>
         </div>
 
-        <div class="projects__row">
+        <div class="projects__row hidden">
           <div class="projects__row-img-cont">
             <video autoplay playsinline loop muted src="./assets/m4v/indiegogo.m4v" alt="Software Screenshot"
               class="projects__row-img" loading="lazy"></video>
@@ -721,7 +722,7 @@
             </div>
           </div>
         </div>
-        <div class="projects__row">
+        <div class="projects__row hidden">
           <div class="projects__row-img-cont">
             <video autoplay playsinline loop muted src="./assets/m4v/hikehaven.m4v" alt="Software Screenshot"
               class="projects__row-img" loading="lazy"></video>
@@ -764,9 +765,9 @@
         </div>
         <div class="main-container">
           <h2 class="heading heading-sec heading-sec__mb-bg">
-            <span class="heading-sec__main">GitHub Calendar</span>
+            <span class="heading-sec__main hidden">GitHub Calendar</span>
           </h2>
-          <div class="calendar">
+          <div class="calendar hidden">
             Loading the data just for you.
           </div>
         </div>
@@ -774,6 +775,7 @@
 
       </div>
   </section>
+
   <section id="contact" class="contact sec-pad dynamicBg">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-med">
@@ -831,6 +833,7 @@
       </div>
     </div>
   </section>
+
   <footer class="main-footer">
     <div class="main-container">
       <div class="main-footer__upper">
@@ -884,3 +887,5 @@
 <script>
   GitHubCalendar(".calendar", "salimzeeshan", { responsive: true });
 </script>
+
+<script src="./slideIn.js"></script>

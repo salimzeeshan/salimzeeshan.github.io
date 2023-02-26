@@ -1590,6 +1590,24 @@ textarea {
 
 /* orange animation end */
 
+
+/* slideIn Animation */
+
+.hidden{
+  opacity: 0;
+  transition: all 1s ease-out;
+  filter: blur(8px);
+  transform: translateX(-40%);
+}
+
+.show{
+  opacity: 1;
+    filter: blur(0px);
+      transform: translateX(0%);
+}
+
+/* slideIn Animationend */
+
 /* windmill animation */
 
 
