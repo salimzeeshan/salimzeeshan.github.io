@@ -593,7 +593,7 @@ textarea {
 
 .techstack {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .projects__row-content h1 {
@@ -956,6 +956,9 @@ textarea {
 @media only screen and (max-width: 37.5em) {
   .header__links {
     display: none;
+  }
+  .techstack {
+    justify-content: center;
   }
 }
 
