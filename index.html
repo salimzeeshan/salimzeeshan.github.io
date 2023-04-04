@@ -27,40 +27,40 @@
     </head>
 
     <body>
-        <header class="header nav-menu">
+        <header class="header" id="nav-menu">
             <div class="header__content">
                 <div class="header__logo-container">
                     <div class="header__logo-img-cont">
-                        <img src="https://media.discordapp.net/attachments/897156357810159709/1044733960162398349/profile_transparent.png" alt="Zeeshan Salim" class="header__logo-img"/>
+                        <img id="home-img" src="https://media.discordapp.net/attachments/897156357810159709/1044733960162398349/profile_transparent.png" alt="Zeeshan Salim" class="header__logo-img"/>
                     </div>
                     <span class="header__logo-sub">Mohammad Zeeshan Salim</span>
                 </div>
-                <div class="header__main">
+                <div class="header__main nav-link home">
                     <ul class="header__links">
                         <li class="header__link-wrapper">
                             <a href="./index.html" class="header__link">
                                 Home
                             </a>
                         </li>
-                        <li class="header__link-wrapper">
+                        <li class="header__link-wrapper nav-link about">
                             <a href="./index.html#about" class="header__link">About
                             </a>
                         </li>
-                        <li class="header__link-wrapper">
+                        <li class="header__link-wrapper nav-link skills">
                             <a href="./index.html#skills" class="header__link">Skill</a>
                         </li>
-                        <li class="header__link-wrapper">
+                        <li class="header__link-wrapper nav-link projects">
                             <a href="./index.html#projects" class="header__link">
                                 Projects
                             </a>
                         </li>
-                        <li class="header__link-wrapper">
+                        <li class="header__link-wrapper nav-link contact">
                             <a href="./index.html#contact" class="header__link">
                                 Contact
                             </a>
                         </li>
-                        <li class="header__link-wrapper">
-                            <a target="_blank" href="https://drive.google.com/file/d/13RMS0TwUEnhKzNZ5w0O8lWK8NElLq4PS/view?usp=share_link" class="header__link">
+                        <li class="header__link-wrapper nav-link resume">
+                            <a target="_blank" id="resume-link-1" href="https://drive.google.com/file/d/13RMS0TwUEnhKzNZ5w0O8lWK8NElLq4PS/view?usp=share_link" class="header__link">
                                 Resume
                             </a>
                         </li>
@@ -117,7 +117,7 @@
             <div class="home-hero__content">
                 <div class="main-pic-cont"><img class="main-picture" src="https://media.discordapp.net/attachments/897156357810159709/1044731472571019325/profile.png"/></div>
                 <h1 class="heading-primary">I'm
-                    <span class="name">Zeeshan</span>. A Full-Stack Web Developer & Designer.</h1>
+                    <span id="user-detail-name"" class="name">Zeeshan</span>. A Full-Stack Web Developer & Designer.</h1>
                 <div
                     class="home-hero__info"><!-- <p class="text-primary">
                                     A full-stack web developer with
@@ -156,7 +156,7 @@
                     </a>
                 </div>
                 <div class="home-hero__social">
-                    <a target="_blank" href="https://drive.google.com/file/d/13RMS0TwUEnhKzNZ5w0O8lWK8NElLq4PS/view?usp=share_link" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+                    <a id="resume-link-2" target="_blank" href="https://drive.google.com/file/d/13RMS0TwUEnhKzNZ5w0O8lWK8NElLq4PS/view?usp=share_link" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
                         <img src="./assets/png/resume.png" alt="icon" class="home-hero__social-icon"/>
                     </a>
                 </div>
@@ -178,7 +178,7 @@
                     <div class="about__content-main">
                         <h3 class="about__content-title">Get to know me</h3>
                         <div class="about__content-details">
-                            <p class="about__content-details-para">
+                            <p id="user-detail-intro" class="about__content-details-para">
                                 Hey! It's
                                 <strong>Mohammad Zeeshan Salim</strong>
                                 and I'm a
@@ -380,6 +380,9 @@
                     <div class="about__content-skills">
                         <h3 class="about__content-title">Tech Stacks & Tools</h3>
                         <div class="skills">
+                          <div id="skills-card"><img src="" class="skills-card-img">
+                            <p id="skills-card-name"></p>
+                          </div>
                             <div class="skills__skill"><img src="https://img.shields.io/badge/React%20-61DBFB?style=for-the-badge&logo=react&logoColor=black" alt="">
                             </div>
                             <div class="skills__skill"><img src="https://img.shields.io/badge/Redux%20-764abc?style=for-the-badge&logo=redux&logoColor=white" alt="">
@@ -458,20 +461,20 @@
 
                 <div class="projects__content">
 
-                    <div class="projects__row hidden">
+                    <div class="projects__row hidden project-card">
                         <div class="projects__row-img-cont">
                             <video autoplay playsinline loop muted src="./assets/m4v/nike.mp4" alt="Software Screenshot" class="projects__row-img"></video>
                         </div>
                         <div class="projects__row-content">
-                            <h3 class="projects__row-content-title">Nike, Inc (Clone)</h3>
-                            <ul class="projects__row-content-desc">
+                            <h3 class="projects__row-content-title project-title">Nike, Inc (Clone)</h3>
+                            <ul class="projects__row-content-desc project-description">
                                 <li>• Authentication with email & password using firebase</li>
                                 <li>• Complete cart & checkout functionality</li>
                                 <li>• Sorting & filtering in product pages</li>
                                 <li>• Dynamic & nested routing</li>
                                 <li>• Responsive design for desktop, tablet & mobile screen sizes</li>
                             </ul>
-                            <div class="techstack skills">
+                            <div class="techstack skills project-tech-stack">
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/React%20-61DBFB?style=for-the-badge&logo=react&logoColor=black" alt="">
                                 </div>
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/Next%20JS%20-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt=""></div>
@@ -481,49 +484,49 @@
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt=""></div>
                             </div>
                             <div class="project-details__links">
-                                <a href="https://nike-lyart.vercel.app/" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live</a>
-                                <a href="https://github.com/salimzeeshan/nike" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Source Code</a>
+                                <a href="https://nike-lyart.vercel.app/" class="btn btn--med btn--theme project-details__links-btn project-deployed-link" target="_blank">Live</a>
+                                <a href="https://github.com/salimzeeshan/nike" class="btn btn--med btn--theme-inv project-details__links-btn project-github-link" target="_blank">Source Code</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="projects__row hidden">
+                    <div class="projects__row hidden project-card">
                         <div class="projects__row-img-cont">
                             <video autoplay playsinline loop muted src="./assets/m4v/bellavita.m4v" alt="Software Screenshot" class="projects__row-img"></video>
                         </div>
                         <div class="projects__row-content">
-                            <h3 class="projects__row-content-title">Bellavita Organic (Clone)</h3>
+                            <h3 class="projects__row-content-title project-title">Bellavita Organic (Clone)</h3>
                             <p class="projects__row-content-desc">
                                 Bella Vita Organic is
                                               Natural & Ayurvedic Beauty and Skincare Products
                                               brand in India.
                             </p>
                             <h1 style="font-size: 22px;">Features</h1>
-                            <ul class="projects__row-content-desc">
+                            <ul class="projects__row-content-desc project-description">
                                 <li>• User authentication</li>
                                 <li>• Responsive UI</li>
                                 <li>• Cart and checkout functionality</li>
                                 <li>• Filter products by name, price</li>
                             </ul>
-                            <div class="techstack skills">
+                            <div class="techstack skills project-tech-stack">
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt=""></div>
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt=""></div>
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt=""></div>
                             </div>
                             <div class="project-details__links">
-                                <a href="https://gorgeous-taiyaki-33aee8.netlify.app/" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live</a>
-                                <a href="https://github.com/rishunayak/Bella-Vita-Organic" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Source Code</a>
+                                <a href="https://gorgeous-taiyaki-33aee8.netlify.app/" class="btn btn--med btn--theme project-details__links-btn project-deployed-link" target="_blank">Live</a>
+                                <a href="https://github.com/rishunayak/Bella-Vita-Organic" class="btn btn--med btn--theme-inv project-details__links-btn project-github-link" target="_blank">Source Code</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="projects__row hidden">
+                    <div class="projects__row hidden project-card">
                         <div class="projects__row-img-cont">
                             <video autoplay playsinline loop muted src="./assets/m4v/indiegogo.m4v" alt="Software Screenshot" class="projects__row-img" loading="lazy"></video>
                         </div>
                         <div class="projects__row-content">
-                            <h3 class="projects__row-content-title">Indiegogo (Clone)</h3>
-                            <p class="projects__row-content-desc">
+                            <h3 class="projects__row-content-title project-title">Indiegogo (Clone)</h3>
+                            <p class="projects__row-content-desc project-description">
                                 Indiegogo is an American crowdfunding website
                                               founded in 2008. allows people to solicit funds for an idea, charity, or start-up business.
                             </p>
@@ -533,24 +536,24 @@
                                 <li>• Implemented authentication</li>
                                 <li>• Responsive UI</li>
                             </ul>
-                            <div class="techstack skills">
+                            <div class="techstack skills project-tech-stack">
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/React%20-61DBFB?style=for-the-badge&logo=react&logoColor=black" alt=""></div>
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt=""></div>
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/Chakra%20UI%20-38c6bd?style=for-the-badge&logo=chakraui&logoColor=white" alt=""></div>
                             </div>
                             <div class="project-details__links">
-                                <a href="https://63399c76c51f1761cb19d066--indiegogofw200033.netlify.app/" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live</a>
-                                <a href="https://github.com/salimzeeshan/husky-care-7787" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Source Code</a>
+                                <a href="https://63399c76c51f1761cb19d066--indiegogofw200033.netlify.app/" class="btn btn--med btn--theme project-details__links-btn project-deployed-link" target="_blank">Live</a>
+                                <a href="https://github.com/salimzeeshan/husky-care-7787" class="btn btn--med btn--theme-inv project-details__links-btn project-github-link" target="_blank">Source Code</a>
                             </div>
                         </div>
                     </div>
-                    <div class="projects__row hidden">
+                    <div class="projects__row hidden project-card">
                         <div class="projects__row-img-cont">
                             <video autoplay playsinline loop muted src="./assets/m4v/hikehaven.m4v" alt="Software Screenshot" class="projects__row-img" loading="lazy"></video>
                         </div>
                         <div class="projects__row-content">
-                            <h3 class="projects__row-content-title">HikeHaven</h3>
-                            <p class="projects__row-content-desc">
+                            <h3 class="projects__row-content-title project-title">HikeHaven</h3>
+                            <p class="projects__row-content-desc project-description">
                                 Clone of Monday.com which is a cloud-based platform that allows
                                               users to create their own applications and project
                                               management software.
@@ -561,7 +564,7 @@
                                 <li>• Implemented authentication</li>
                                 <li>• Responsive UI</li>
                             </ul>
-                            <div class="techstack skills">
+                            <div class="techstack skills project-tech-stack">
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/React%20-61DBFB?style=for-the-badge&logo=react&logoColor=black" alt=""></div>
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt=""></div>
                                 <div class="skills__skill"><img src="https://img.shields.io/badge/Chakra%20UI%20-38c6bd?style=for-the-badge&logo=chakraui&logoColor=white" alt="">
@@ -571,8 +574,8 @@
 
                             </div>
                             <div class="project-details__links">
-                                <a href="https://hikehaven.netlify.app/" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live</a>
-                                <a href="https://github.com/salimzeeshan/handsome-hydrant-4081" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Source Code</a>
+                                <a href="https://hikehaven.netlify.app/" class="btn btn--med btn--theme project-details__links-btn project-deployed-link" target="_blank">Live</a>
+                                <a href="https://github.com/salimzeeshan/handsome-hydrant-4081" class="btn btn--med btn--theme-inv project-details__links-btn project-github-link" target="_blank">Source Code</a>
                             </div>
                         </div>
                     </div>
@@ -580,7 +583,7 @@
                         <h2 class="heading heading-sec heading-sec__mb-bg">
                             <span class="heading-sec__main hidden">GitHub Calendar</span>
                         </h2>
-                        <div class="calendar hidden">
+                        <div class="calendar hidden react-activity-calendar">
                             Loading the data just for you.
                         </div>
                     </div>
@@ -636,10 +639,10 @@
                               </form>
                             </div> -->
                     <div class="project-details__links_contact">
-                        <a href="mailto: zeeshansalim541@gmail.com" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Email</a>
-                        <a href="https://www.linkedin.com/in/zeeshansalim/" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">LinkedIn</a>
-                        <a href="https://github.com/salimzeeshan" class="btn btn--med btn--theme project-details__links-btn" target="_blank">github</a>
-                        <a href="tel:9990764437" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Call</a>
+                        <a id="contact-email" href="mailto: zeeshansalim541@gmail.com" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Email</a>
+                        <a id="contact-linkedin" href="https://www.linkedin.com/in/zeeshansalim/" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">LinkedIn</a>
+                        <a id="contact-github" href="https://github.com/salimzeeshan" class="btn btn--med btn--theme project-details__links-btn" target="_blank">github</a>
+                        <a id="contact-phone" href="tel:9990764437" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Call</a>
                     </div>
                 </div>
             </section>
