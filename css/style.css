@@ -12,6 +12,7 @@ $breakpoint arguement choices:
 
 Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
 */
+
 *,
 *::after,
 *::before {
@@ -1596,7 +1597,7 @@ textarea {
 
 /* slideIn Animation */
 
-.hidden{
+/* .hidden{
   opacity: 0;
   transition: all 1s ease-out;
   filter: blur(8px);
@@ -1607,7 +1608,7 @@ textarea {
   opacity: 1;
     filter: blur(0px);
       transform: translateX(0%);
-}
+} */
 
 /* slideIn Animationend */
 
