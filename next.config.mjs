@@ -3,8 +3,6 @@ const nextConfig = {
   output: "export",
   images: {
     unoptimized: true,
-  },
-  images: {
     formats: ["image/avif", "image/webp"],
   },
 };
