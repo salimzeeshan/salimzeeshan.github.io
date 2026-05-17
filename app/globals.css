@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html {
+  background: #fafafa;
+}
+
+html.dark {
+  background: #0f0f0f;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar globally */
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.22);
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-6xl px-5 py-12 sm:px-6 sm:py-14 lg:px-8 lg:py-16;
+}
+
+.section-kicker {
+  @apply mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-accent;
+}
+
+.section-title {
+  @apply font-heading text-3xl font-bold text-zinc-900 dark:text-zinc-50 sm:text-4xl;
+}
+
+.section-copy {
+  @apply text-base leading-8 text-zinc-600 dark:text-zinc-300;
+}
+
+@media (pointer: fine) {
+
+  body.has-custom-cursor,
+  body.has-custom-cursor * {
+    cursor: none !important;
+  }
+}

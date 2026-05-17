@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Mohammad Zeeshan Salim Frontend Engineer">
+  <rect width="1200" height="630" fill="#0F0F0F"/>
+  <circle cx="980" cy="120" r="260" fill="#2563EB" opacity=".28"/>
+  <circle cx="180" cy="560" r="230" fill="#14B8A6" opacity=".18"/>
+  <rect x="86" y="90" width="1028" height="450" rx="36" fill="#FFFFFF" opacity=".06" stroke="#FFFFFF" stroke-opacity=".12"/>
+  <text x="130" y="230" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#60A5FA">Frontend Engineer</text>
+  <text x="130" y="320" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900" fill="#FFFFFF">Mohammad Zeeshan Salim</text>
+  <text x="130" y="400" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="500" fill="#D4D4D8">React · Next.js · TypeScript · UI Engineering</text>
+  <rect x="130" y="452" width="152" height="62" rx="16" fill="#2563EB"/>
+  <text x="206" y="493" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">MZS</text>
+</svg>
