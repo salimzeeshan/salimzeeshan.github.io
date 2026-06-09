@@ -40,7 +40,7 @@ export interface Project {
   description: string;
   techStack: string[];
   liveUrl?: string;
-  githubUrl: string;
+  githubUrl?: string;
   image: string;
 }
 
