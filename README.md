@@ -6,7 +6,7 @@ The site is designed as a polished single-page experience with smooth navigation
 
 ## Live Site
 
-[salimzeeshan.github.io](salimzeeshan.github.io)
+[salimzeeshan.github.io](https://salimzeeshan.github.io/)
 
 ## Highlights
 
