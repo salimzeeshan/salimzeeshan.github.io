@@ -21,6 +21,15 @@ export const metadata: Metadata = {
     default: "Mohammad Zeeshan Salim | Frontend Engineer",
     template: "%s | Mohammad Zeeshan Salim"
   },
+  icons: {
+    icon: [
+      {
+        url: "/profile.png",
+        type: "image/png"
+      }
+    ],
+    apple: "/profile.png"
+  },
   description:
     "Frontend engineer portfolio for Mohammad Zeeshan Salim, showcasing React, Next.js, TypeScript, UI engineering, projects, and experience.",
   openGraph: {
