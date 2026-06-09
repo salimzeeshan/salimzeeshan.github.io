@@ -6,7 +6,7 @@ The site is designed as a polished single-page experience with smooth navigation
 
 ## Live Site
 
-[mzs-portfolio.vercel.app](https://mzs-portfolio.vercel.app)
+[salimzeeshan.github.io](salimzeeshan.github.io)
 
 ## Highlights
 
