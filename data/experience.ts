@@ -2,10 +2,26 @@ import type { Experience } from "@/types";
 
 export const experience: Experience[] = [
   {
+    company: "MEAtec - Battery Intelligence",
+    role: "Frontend Engineer",
+    duration: "Jun 2026 - Present",
+    location: "Germany, Remote",
+    description: "",
+    bullets: [],
+  },
+  {
+    company: "Health & Personal Development",
+    role: "Career break",
+    duration: "Nov 2025 - May 2026",
+    location: "",
+    description: "",
+    bullets: [],
+  },
+  {
     company: "OnArrival Travel",
     role: "Frontend Engineer",
     duration: "May 2025 - Nov 2025",
-    location: "Remote",
+    location: "Bengaluru, Remote",
     description: "",
     bullets: [
       "Implemented SSR in Next.js for SEO-critical and content-heavy pages to improve the initial load experience of the web app.",

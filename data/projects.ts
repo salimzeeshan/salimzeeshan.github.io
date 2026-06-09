@@ -17,18 +17,30 @@ export const projects: Project[] = [
       "Groq",
       "node-cron",
     ],
-    liveUrl: "",
     githubUrl: "https://github.com/salimzeeshan/genz-news",
     image: "/projects/m4v/genz-news.mp4",
   },
   {
-    title: "Arena",
+    title: "Arena - Gaming Platform",
     description:
-      "A storefront interface focused on product discovery, animated transitions, and fast checkout paths.",
+      "Architected and developed ARENA, an interactive HTML5 gaming platform within the PlayZap ecosystem, serving 10,000+ registered users and thousands of monthly active players. (Must use VPN to access in India due to RMG ban)",
     techStack: ["React", "Framer Motion", "Tailwind CSS", "Firebase"],
-    liveUrl: "https://example.com/motion-commerce",
-    githubUrl: "https://github.com/salimzeeshan/motion-commerce",
+    liveUrl: "https://arena.playzap.games/",
     image: "/projects/m4v/arena.mp4",
+  },
+  {
+    title: "Niyo Global PWA - Mobile",
+    description:
+      "A mobile-first PWA for Niyo Global, a flight booking platform. I built the app in a monorepo architecture using React.js, TypeScript, and Tailwind CSS, and Material UI integrating REST APIs for authentication, account management, and transactions.",
+    techStack: [
+      "React",
+      "Material UI",
+      "Tailwind CSS",
+      "TypeScript",
+      "REST APIs",
+    ],
+    liveUrl: "https://niyo.onarrival.travel/",
+    image: "/projects/m4v/niyo_global.mp4",
   },
   {
     title: "Nike",

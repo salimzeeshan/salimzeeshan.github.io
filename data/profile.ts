@@ -25,6 +25,6 @@ export const profile: Profile = {
   stats: [
     { label: "Years Experience", value: 3, suffix: "+" },
     { label: "Projects Shipped", value: 15, suffix: "+" },
-    { label: "Companies", value: 2 },
+    { label: "Companies", value: 3 },
   ],
 };
