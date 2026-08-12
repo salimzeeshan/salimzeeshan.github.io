@@ -21,6 +21,27 @@ export const projects: Project[] = [
     image: "/projects/m4v/genz-news.mp4",
   },
   {
+    title: "Flames CLAT",
+    description:
+      "A production-ready online coaching platform for CLAT, AILET, and law entrance aspirants. Built with public course pages, quizzes, blogs, student authentication, purchase flows, and an admin dashboard for managing courses, toppers, experts, success stories, YouTube links, news spotlights, coupons, and users.",
+    techStack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "RTK Query",
+      "React Hook Form",
+      "Radix UI",
+      "Lucide React",
+      "Swiper",
+      "REST APIs",
+    ],
+    liveUrl: "https://flamesclat.com/",
+    githubUrl: "",
+    image: "/projects/m4v/flames-clat.mp4",
+  },
+  {
     title: "Arena - Gaming Platform",
     description:
       "Architected and developed ARENA, an interactive HTML5 gaming platform within the PlayZap ecosystem, serving 10,000+ registered users and thousands of monthly active players. (Must use VPN to access in India due to RMG ban)",
