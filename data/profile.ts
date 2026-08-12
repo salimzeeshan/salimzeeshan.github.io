@@ -1,12 +1,12 @@
 import type { Profile } from "@/types";
 
 export const profile: Profile = {
-  name: "Mohammad Zeeshan Salim",
+  name: "Zeeshan Salim",
   initials: "MZS",
-  title: "Frontend Engineer",
+  title: "Frontend-focused Fullstack Developer",
   roles: ["Frontend Engineer", "React Developer", "UI Engineer"],
   tagline:
-    "I build polished, accessible web interfaces that feel fast, clear, and quietly delightful.",
+    "I build polished, responsive and accessible web interfaces that feel fast, clear, and quietly delightful.",
   email: "zeeshansalim541@gmail.com",
   linkedInUrl: "https://www.linkedin.com/in/zeeshansalim",
   githubUrl: "https://github.com/salimzeeshan",
